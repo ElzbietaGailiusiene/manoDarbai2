@@ -1,0 +1,56 @@
+h3{
+    color: plum;
+}
+
+
+
+
+ul li:nth-child(4n+3) {
+    color: yellow
+
+}
+ul li:hover:nth-child(2n+1){
+    color: tomato;
+}
+
+
+
+a [href *="example"]{
+    background: hotpink;
+}
+table thead th{
+    background-color: teal;
+    color: tomato;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align-last: left;
+}
+table tbody :nth-child(2n+1){
+    border-top-right-radius: 15%;
+background-color: thistle;
+color: violet;
+font-size: 15px;
+}
+table tfoot{
+    text-align-last: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    background-color: gray;
+    text-transform: uppercase;
+}
+tfoot :last-child:hover{
+    background: green;
+}
+table{
+    width: 50%;
+}
+a[href^="#"]{
+    color:goldenrod
+}
+a[href*="org"]{
+   background-color:green;
+}
+    a[href*="...examp..."]{
+        color:hotpink;
+    }
+}

@@ -1,0 +1,27 @@
+table{
+  border: solid grey;
+}
+thead{
+    color: yellow;
+text-align: center;
+text-transform: uppercase;
+background: grey;
+}
+tfoot{
+    color: yellow;
+text-align: center;
+text-transform: uppercase;
+background: grey;
+}
+tbody tr:hover{
+      background-color: yellow; 
+}
+tr:nth-child(even){
+   background: green; 
+}
+
+tbody tr:nth-child(odd){
+    background: pink; 
+ }
+ 
+ 

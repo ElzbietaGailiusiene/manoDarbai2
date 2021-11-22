@@ -1,0 +1,27 @@
+.container {
+    width: 500px;
+    border: 2px solid darkslategray;
+    padding: 2em;
+    margin: 5em auto;
+}
+
+
+
+/* CSS stilius įterpti čia */
+
+div{
+    border: 10px black;
+}
+h2{
+    color: tomato;
+}
+ul{
+    list-style-type: none;
+}
+li::before{
+   content:'\26E4'; 
+}
+
+li.active:before {
+    color: goldenrod;
+}
